@@ -9,7 +9,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <>
+        <div className="bg-white">
             <SEO title="Yoko Street" />
 
             {/* <main className="flex min-h-screen flex-col items-center p-5">
@@ -25,6 +25,6 @@ export default function Home() {
             <Menu />
             <Advert />
             <Footer />
-        </>
+        </div>
     );
 }
