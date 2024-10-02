@@ -5,9 +5,24 @@ import { Menu } from "@/components/Menu";
 import { Order } from "@/components/Order";
 import SEO from "@/components/SEO";
 import { Summer } from "@/components/Summer";
-import React from "react";
+import React, { useEffect } from "react";
+import Lenis from "lenis";
 
 export default function Home() {
+    useEffect(() => {
+        const lenis = new Lenis();
+
+        lenis.on("scroll", (e) => {
+            console.log(e);
+        });
+
+        function raf(time: number) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    }, []);
     return (
         <div className="bg-white">
             <SEO title="Yoko Street" />
