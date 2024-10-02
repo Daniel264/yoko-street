@@ -9,7 +9,7 @@ export default function Document() {
 
                 {/* Get default font file from https://fonts.google.com  */}
                 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
-                <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@300,600&display=swap" rel="stylesheet" />
+                <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@300,400,600&display=swap" rel="stylesheet" />
             </Head>
             <body>
                 <Main />
