@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Menu } from "@/components/Menu";
 import { Order } from "@/components/Order";
 import SEO from "@/components/SEO";
 import { Summer } from "@/components/Summer";
@@ -19,6 +20,7 @@ export default function Home() {
             <Header />
             <Summer />
             <Order />
+            <Menu />
         </>
     );
 }
