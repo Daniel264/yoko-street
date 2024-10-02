@@ -8,7 +8,7 @@ export const Summer = () => {
         gsap.from(".first-animation", {
             duration: 1,
             y: 60,
-          
+
             opacity: 0,
             ease: "power4.inOut",
             delay: 0.5,
