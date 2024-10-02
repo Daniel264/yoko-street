@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "./Button";
 
 export const Advert = () => {
     return (
@@ -9,13 +10,16 @@ export const Advert = () => {
                 <Image src="/assets/images/right-img.svg" className="w-1/3 sm:w-full" alt="Plate of food" width={200} height={100} />
             </div>
             <div className="">
-                <h1 className="text-4xl sm:text-5xl font-medium">
+                <h1 className="text-4xl font-medium sm:text-5xl">
                     Last chance to order <br />
                     Early Summer Bento
                 </h1>
                 <p className="mt-5  text-xl">
                     with garlic miso chicken & grilled corn rice. <br /> Get this-to-go bento for your summer picnic!
                 </p>
+            </div>
+            <div>
+                <Button text={"ORDER NOW"} bgColor={"pink-400"} />
             </div>
         </div>
     );
