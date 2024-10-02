@@ -51,7 +51,7 @@ export const Summer = () => {
             </div>
 
             <div className="pt-10 text-xl lg:pt-20">
-                <p className="text-center first-animation">
+                <p className="first-animation text-center">
                     <span className="text-orange-500">Hiyashi Chucka</span> translates to chilled Chinese-style <br className="hidden lg:block" /> noodles in Japanese. It is a Japanese dish that is popular <br className="hidden lg:block" /> during summer, known for its chilled noodles and colorful{" "}
                     <br className="hidden lg:block" /> toppings, making it a refreshing choice during <br className="hidden lg:block" /> hot weather
                 </p>
