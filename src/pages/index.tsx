@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Order } from "@/components/Order";
 import SEO from "@/components/SEO";
 import { Summer } from "@/components/Summer";
 import React from "react";
@@ -17,6 +18,7 @@ export default function Home() {
             </main> */}
             <Header />
             <Summer />
+            <Order />
         </>
     );
 }
