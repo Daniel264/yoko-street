@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "./Button";
 
 export const Summer = () => {
     return (
@@ -18,7 +19,7 @@ export const Summer = () => {
                 {" "}
                 {/* Adjust height here */}
                 <Image
-                    src="/assets/images/table.jpg"
+                    src="/assets/images/noodle.svg"
                     alt="Noodles"
                     className=" sm:h-[60vh] lg:h-[80vh] lg:w-[60%]"
                     width={1000} // Maintain the original width of the SVG
@@ -27,10 +28,14 @@ export const Summer = () => {
                 />
             </div>
 
-            <div className="pt-10 lg:pt-20 text-xl">
+            <div className="pt-10 text-xl lg:pt-20">
                 <p className="text-center">
-                    <span className="text-orange-500">Hiyashi Chucka</span> translates to chilled Chinese-style <br  className="hidden lg:block"/> noodles in Japanese. It is a Japanese dish that is popular <br  className="hidden lg:block"/> during summer, known for its chilled noodles and colorful <br  className="hidden lg:block"/> toppings, making it a refreshing choice during <br  className="hidden lg:block"/> hot weather
+                    <span className="text-orange-500">Hiyashi Chucka</span> translates to chilled Chinese-style <br className="hidden lg:block" /> noodles in Japanese. It is a Japanese dish that is popular <br className="hidden lg:block" /> during summer, known for its chilled noodles and colorful{" "}
+                    <br className="hidden lg:block" /> toppings, making it a refreshing choice during <br className="hidden lg:block" /> hot weather
                 </p>
+            </div>
+            <div className="w-full flex justify-center pt-5">
+                <Button text={"GET STARTED"} bgColor={"pink-400"} />
             </div>
         </div>
     );
