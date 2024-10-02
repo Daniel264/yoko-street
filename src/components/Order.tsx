@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const Order = () => {
     return (
-        <div className="flex flex-row w-full justify-center">
-            <div>
+        <div className="flex w-full flex-row justify-center pt-8">
+            <div className="bg-[#E0F2C3] px-7">
                 <Image src="/assets/images/plate.svg" alt="Plate of food" width={100} height={100} />
             </div>
             <div>
