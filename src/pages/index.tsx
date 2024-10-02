@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Menu } from "@/components/Menu";
 import { Order } from "@/components/Order";
@@ -21,6 +22,7 @@ export default function Home() {
             <Summer />
             <Order />
             <Menu />
+            <Footer />
         </>
     );
 }
