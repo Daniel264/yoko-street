@@ -45,7 +45,7 @@ export const ImageGrid = () => {
             <div className="grid grid-cols-2">
                 {ImageData.map((item, index) => (
                     <div key={index} className="w-full border-y-2 border-black">
-                        {item.type === "image" ? <Image className="w-full" src={item.src || "/default-image-path.svg"} alt={item.alt || "default alt text"} width={500} height={100} /> : <p className="clash-font text-4xl lg:px-24 flex w-full text-center justify-center h-full items-center font-medium leading-normal tracking-wide">{item.content}</p>}
+                        {item.type === "image" ? <Image className="w-full" src={item.src || "/default-image-path.svg"} alt={item.alt || "default alt text"} width={500} height={100} /> : <p className="clash-font sm:text-4xl lg:px-24 flex w-full text-center justify-center h-full items-center font-medium leading-normal tracking-wide">{item.content}</p>}
                     </div>
                 ))}
             </div>
