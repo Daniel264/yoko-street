@@ -1,3 +1,4 @@
+import { Button } from "./Button";
 import { ImageGrid } from "./ImageGrid";
 
 export const Menu = () => {
@@ -12,8 +13,11 @@ export const Menu = () => {
                 </p>
             </div>
 
-            <div className="w-full px-7 pt-10 lg:px-28">
+            <div className="w-full px-7 pt-10 lg:px-28 ">
                 <ImageGrid />
+            </div>
+            <div className="pt-10">
+                <Button text={"EXPLORE MENU"} bgColor="orange-600" />
             </div>
         </div>
     );
