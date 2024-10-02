@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import SEO from "@/components/SEO";
+import { Summer } from "@/components/Summer";
 import React from "react";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
                 </div>
             </main> */}
             <Header />
+            <Summer />
         </>
     );
 }
