@@ -17,7 +17,7 @@ export const Menu = () => {
                 <ImageGrid />
             </div>
             <div className="pt-10">
-                <Button text={"EXPLORE MENU"} bgColor="orange-600" />
+                <Button text={"EXPLORE MENU"} bgColor="bg-orange-600" />
             </div>
         </div>
     );
