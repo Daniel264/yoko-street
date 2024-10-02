@@ -12,7 +12,7 @@ export const Menu = () => {
                 </p>
             </div>
 
-            <div className="w-full px-7">
+            <div className="w-full px-7 lg:px-28">
                 <ImageGrid />
             </div>
         </div>
