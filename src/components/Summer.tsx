@@ -57,7 +57,7 @@ export const Summer = () => {
                 </p>
             </div>
             <div className="flex w-full justify-center pt-5">
-                <Button text={"GET STARTED"} bgColor={"pink-400"} />
+                <Button text={"GET STARTED"} bgColor={"bg-pink-400"} />
             </div>
         </div>
     );

@@ -19,7 +19,7 @@ export const Advert = () => {
                 </p>
             </div>
             <div>
-                <Button text={"ORDER NOW"} bgColor="pink-400" />
+                <Button text={"ORDER NOW"} bgColor="bg-pink-400" />
             </div>
         </div>
     );
