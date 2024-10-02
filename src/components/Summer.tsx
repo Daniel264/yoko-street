@@ -14,15 +14,23 @@ export const Summer = () => {
             <div className="flex w-full justify-center">
                 <h1 className="clash-font text-3xl font-semibold tracking-wider sm:text-7xl md:text-8xl lg:text-9xl">chilled noodles</h1>
             </div>
-            <div className="w-full h-[90vh] flex justify-center"> {/* Adjust height here */}
-                <Image 
-                    src="/assets/images/noodles.svg" 
-                    alt="Noodles" 
-                    layout="responsive" 
-                    width={1000}  // Maintain the original width of the SVG
+            <div className="flex h-full w-full justify-center px-7">
+                {" "}
+                {/* Adjust height here */}
+                <Image
+                    src="/assets/images/table.jpg"
+                    alt="Noodles"
+                    className=" sm:h-[60vh] lg:h-[80vh] lg:w-[60%]"
+                    width={1000} // Maintain the original width of the SVG
                     height={300} // Maintain the aspect ratio; adjust this value to control height
-                    className="object-contain" // Ensure the image maintains aspect ratio
+                    // Ensure the image maintains aspect ratio
                 />
+            </div>
+
+            <div className="pt-10 lg:pt-20 text-xl">
+                <p className="text-center">
+                    <span className="text-orange-500">Hiyashi Chucka</span> translates to chilled Chinese-style <br  className="hidden lg:block"/> noodles in Japanese. It is a Japanese dish that is popular <br  className="hidden lg:block"/> during summer, known for its chilled noodles and colorful <br  className="hidden lg:block"/> toppings, making it a refreshing choice during <br  className="hidden lg:block"/> hot weather
+                </p>
             </div>
         </div>
     );
