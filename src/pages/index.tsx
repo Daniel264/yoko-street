@@ -24,7 +24,7 @@ export default function Home() {
         requestAnimationFrame(raf);
     }, []);
     return (
-        <div className="bg-white">
+        <div className="bg-white text-black">
             <SEO title="Yoko Street" />
 
             {/* <main className="flex min-h-screen flex-col items-center p-5">
